@@ -24,10 +24,9 @@ dependencies {
     )
 }
 
-
-test {
-    dependsOn pmdMain, pmdTest, findbugsMain, findbugsTest
-}
+//test {
+//    dependsOn pmdMain, pmdTest, findbugsMain, findbugsTest
+//}
 
 pmd {
     targetJdk = '1.7'
